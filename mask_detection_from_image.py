@@ -11,7 +11,7 @@ class MaskDetectionImage:
     def __init__(self, arg):
         self.image = arg['image']
         self.model_path = Path(arg['model'])
-        self.face_path = r"E:\my_work\Spiced_Projects\final_project\face_model"
+        self.face_path = r"E:\my_work\GitHub_Projects\Face_Mask_Detection\face_model"
         self.conf_threshold = 0.90
 
     def run(self):
