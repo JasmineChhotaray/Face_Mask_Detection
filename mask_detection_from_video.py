@@ -14,8 +14,8 @@ from utils import write_image, key_action, init_cam
 class VideoDetection:
 
     def __init__(self):
-        self.model_path = r"E:\my_work\Spiced_Projects\final_project"
-        self.face_path = r"E:\my_work\Spiced_Projects\final_project\face_model"
+        self.model_path = r"E:\my_work\GitHub_Projects\Face_Mask_Detection"
+        self.face_path = r"E:\my_work\GitHub_Projects\Face_Mask_Detection\face_model"
         self.conf_threshold = 0.90
 
     # Normal Image detection and providing Top 5 probability
